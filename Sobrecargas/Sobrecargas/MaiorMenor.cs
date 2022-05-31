@@ -31,22 +31,5 @@ namespace Sobrecargas
             if (a < b) return a;
             return b;
         }
-        public double Menor(double a, double b, double c)
-        {
-            if (a < b)
-            {
-                if (a < c)
-                {
-                    return a;
-                }
-                return c;
-            }
-
-            if (c < b)
-            {
-                return c;
-            }
-            return b;
-        }
     }
 }
