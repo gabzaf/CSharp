@@ -1,0 +1,15 @@
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\bin\Debug\net6.0\ExplorandoExceptions.exe
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\bin\Debug\net6.0\ExplorandoExceptions.deps.json
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\bin\Debug\net6.0\ExplorandoExceptions.runtimeconfig.json
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\bin\Debug\net6.0\ExplorandoExceptions.dll
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\bin\Debug\net6.0\ExplorandoExceptions.pdb
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ExplorandoExceptions.csproj.AssemblyReference.cache
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ExplorandoExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ExplorandoExceptions.AssemblyInfoInputs.cache
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ExplorandoExceptions.AssemblyInfo.cs
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ExplorandoExceptions.csproj.CoreCompileInputs.cache
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ExplorandoExceptions.dll
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\refint\ExplorandoExceptions.dll
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ExplorandoExceptions.pdb
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ExplorandoExceptions.genruntimeconfig.cache
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\ExplorandoExceptions\obj\Debug\net6.0\ref\ExplorandoExceptions.dll
