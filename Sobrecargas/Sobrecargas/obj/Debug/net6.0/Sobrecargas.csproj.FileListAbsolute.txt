@@ -1,0 +1,15 @@
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\Sobrecargas.csproj.AssemblyReference.cache
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\Sobrecargas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\Sobrecargas.AssemblyInfoInputs.cache
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\Sobrecargas.AssemblyInfo.cs
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\Sobrecargas.csproj.CoreCompileInputs.cache
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\bin\Debug\net6.0\Sobrecargas.exe
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\bin\Debug\net6.0\Sobrecargas.deps.json
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\bin\Debug\net6.0\Sobrecargas.runtimeconfig.json
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\bin\Debug\net6.0\Sobrecargas.dll
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\bin\Debug\net6.0\Sobrecargas.pdb
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\Sobrecargas.dll
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\refint\Sobrecargas.dll
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\Sobrecargas.pdb
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\Sobrecargas.genruntimeconfig.cache
+C:\Users\Paracelsus\cursoCSharp\CursoCSharpExplorandoSozinho\Sobrecargas\Sobrecargas\obj\Debug\net6.0\ref\Sobrecargas.dll
