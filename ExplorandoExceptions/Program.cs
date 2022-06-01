@@ -6,22 +6,22 @@ namespace ExplorandoExceptions
     {
         static void Main(string[] args)
         {
-            Divisor divisor = new Divisor(10, 2);
-            TestaDivisao(divisor);
+            Divisor divisor = new Divisor(10, 0);
             Divisor divisor2 = null;
-            Teste(divisor2);
-        }
-        public static void TestaDivisao(Divisor a)
-        {
+
             try
             {
-                int resultado = a.Divide();
+                int resultado = divisor.Divide();
                 Console.WriteLine("O resultado da divisão é: " + resultado);
             }
-            catch (DivideByZeroException)
+            catch (DivideByZeroException e)
             {
                 Console.WriteLine("Não é possível dividir por zero!");
+                Console.WriteLine(e.StackTrace);
             }
+
+            Teste(divisor2);
+            Console.ReadLine();
         }
         public static void Teste(Divisor b)
         {
@@ -29,9 +29,10 @@ namespace ExplorandoExceptions
             {
                 b.Divide();
             }
-            catch (NullReferenceException)
+            catch (NullReferenceException e)
             {
                 Console.WriteLine("Não pode passar referência nula!");
+                Console.WriteLine(e.StackTrace);
             }
 
         }
