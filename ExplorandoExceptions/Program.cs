@@ -2,21 +2,39 @@
 
 namespace ExplorandoExceptions
 {
-    public class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Divisor divisor = new Divisor();
-            divisor.a = 10;
-            divisor.b = 0;
+            Divisor divisor = new Divisor(10, 2);
+            TestaDivisao(divisor);
+            Divisor divisor2 = null;
+            Teste(divisor2);
+        }
+        public static void TestaDivisao(Divisor a)
+        {
             try
             {
-                double divisor2 = divisor.Divide();
+                int resultado = a.Divide();
+                Console.WriteLine("O resultado da divisão é: " + resultado);
             }
-            catch (DivideByZeroException) {
-
-                Console.WriteLine("Tentou dividir por zero! ");
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Não é possível dividir por zero!");
             }
         }
+        public static void Teste(Divisor b)
+        {
+            try
+            {
+                b.Divide();
+            }
+            catch (NullReferenceException)
+            {
+                Console.WriteLine("Não pode passar referência nula!");
+            }
+
+        }
+
     }
 }

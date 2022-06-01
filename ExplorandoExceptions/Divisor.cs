@@ -8,12 +8,18 @@ namespace ExplorandoExceptions
 {
     public class Divisor
     {
-        public int a { get; set; }
-        public int b { get; set; }
+        public int A { get; }
+        public int B { get; }
+        public Divisor(int a, int b)
+        {
+            A = a;
+            B = b;
+        }
         public int Divide()
         {
-            int c = a / b;
+            int c = A / B;
             return c;
         }
+        
     }
 }
