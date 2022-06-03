@@ -12,7 +12,12 @@ namespace ExplorandoExceptions
         public double B { get; }
         public Divisor(double a, double b)
         {
-            if(b == 3.14)
+            if (a > 10000)
+            {
+                ArgumentException exceção = new ArgumentException("A calculadora não faz divisão com numeros maiores que 10.000.");
+                throw exceção;
+            }
+            if (b == 3.14)
             {
                 ArgumentException exceção = new ArgumentException("A calculadora não faz divisão por Pi.");
                 throw exceção;

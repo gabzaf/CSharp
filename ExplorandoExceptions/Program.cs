@@ -11,7 +11,7 @@ namespace ExplorandoExceptions
 
             try
             {
-                Divisor divisor = new Divisor(10, 3.14);
+                Divisor divisor = new Divisor(10001, 3.14);
                 double resultado = Teste(divisor);
                 Console.WriteLine("O resultado é: " + resultado);
                 double numero = divisor2.Divide();
