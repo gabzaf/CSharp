@@ -6,14 +6,15 @@ namespace ExplorandoExceptions
     {
         static void Main(string[] args)
         {
-            Divisor divisor = new Divisor(10, 2);
+           
             Divisor divisor2 = null;
 
             try
             {
-                int resultado = Teste(divisor);
+                Divisor divisor = new Divisor(10, 3.14);
+                double resultado = Teste(divisor);
                 Console.WriteLine("O resultado é: " + resultado);
-                int numero = divisor2.Divide();
+                double numero = divisor2.Divide();
             }
             catch (DivideByZeroException e)
             {
@@ -25,9 +26,14 @@ namespace ExplorandoExceptions
                 Console.WriteLine("Exceção de referência nula");
                 Console.WriteLine(e.StackTrace);
             }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine("Ocorreu Exceção do tipo Argument Exception");
+                Console.WriteLine(ex.Message);
+            }
             Console.ReadLine();
         }
-        private static int Teste(Divisor a)
+        private static double Teste(Divisor a)
         {
             try
             {

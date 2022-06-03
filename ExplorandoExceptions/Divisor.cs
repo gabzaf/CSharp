@@ -8,16 +8,21 @@ namespace ExplorandoExceptions
 {
     public class Divisor
     {
-        public int A { get; }
-        public int B { get; }
-        public Divisor(int a, int b)
+        public double A { get; }
+        public double B { get; }
+        public Divisor(double a, double b)
         {
+            if(b == 3.14)
+            {
+                ArgumentException exceção = new ArgumentException("A calculadora não faz divisão por Pi.");
+                throw exceção;
+            }
             A = a;
             B = b;
         }
-        public int Divide()
+        public double Divide()
         {
-            int c = A / B;
+            double c = A / B;
             return c;
         }
         
