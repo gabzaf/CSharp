@@ -14,16 +14,23 @@ namespace ExplorandoExceptions
         {
             if (numerador > 10000)
             {
-                ArgumentException exceção = new ArgumentException("A calculadora não faz divisão com numeros maiores que 10.000.", nameof(numerador));
+                ArgumentException exceção = new ArgumentException("O divisor não pode ter numerador maior que 10.000.", nameof(numerador));
                 throw exceção;
             }
             if (denominador == 3.14)
             {
-                ArgumentException exceção = new ArgumentException("A calculadora não faz divisão por Pi.", nameof(denominador));
+                ArgumentException exceção = new ArgumentException("O divisor não pode ter denominador igual a Pi.", nameof(denominador));
                 throw exceção;
             }
             A = numerador;
             B = denominador;
+        }
+        public void Positivos(double numerador, double denominador)
+        {
+            if(numerador < 0 || denominador < 0)
+            {
+                throw new NumeradorOuDenominadorNegativoException("SOMENTE NÚMEROS POSITIVOS.");
+            }
         }
         public double Divide()
         {

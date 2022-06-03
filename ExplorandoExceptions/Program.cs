@@ -6,12 +6,14 @@ namespace ExplorandoExceptions
     {
         static void Main(string[] args)
         {
-           
             Divisor divisor2 = null;
+            double numerador = 10000;
+            double denominador = -1;
 
             try
             {
-                Divisor divisor = new Divisor(10000, 3.14);
+                Divisor divisor = new Divisor(numerador, denominador);
+                divisor.Positivos(numerador, denominador);
                 double resultado = Teste(divisor);
                 Console.WriteLine("O resultado é: " + resultado);
                 double numero = divisor2.Divide();
@@ -31,6 +33,12 @@ namespace ExplorandoExceptions
                 Console.WriteLine("Argumento que causou erro: " + ex.ParamName);
                 Console.WriteLine("Ocorreu Exceção do tipo Argument Exception");
                 Console.WriteLine(ex.Message);
+            }
+            catch (NumeradorOuDenominadorNegativoException e)
+            {
+                //Console.WriteLine("Argumento que causou erro: " + e.ParamName);
+                Console.WriteLine("Ocorreu Exceção do tipo Numero Negativo");
+                Console.WriteLine(e.Message);
             }
             Console.ReadLine();
         }
