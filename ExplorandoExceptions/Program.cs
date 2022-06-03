@@ -11,7 +11,7 @@ namespace ExplorandoExceptions
 
             try
             {
-                Divisor divisor = new Divisor(10001, 3.14);
+                Divisor divisor = new Divisor(10000, 3.14);
                 double resultado = Teste(divisor);
                 Console.WriteLine("O resultado é: " + resultado);
                 double numero = divisor2.Divide();
@@ -28,6 +28,7 @@ namespace ExplorandoExceptions
             }
             catch (ArgumentException ex)
             {
+                Console.WriteLine("Argumento que causou erro: " + ex.ParamName);
                 Console.WriteLine("Ocorreu Exceção do tipo Argument Exception");
                 Console.WriteLine(ex.Message);
             }

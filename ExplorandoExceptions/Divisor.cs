@@ -10,20 +10,20 @@ namespace ExplorandoExceptions
     {
         public double A { get; }
         public double B { get; }
-        public Divisor(double a, double b)
+        public Divisor(double numerador, double denominador)
         {
-            if (a > 10000)
+            if (numerador > 10000)
             {
-                ArgumentException exceção = new ArgumentException("A calculadora não faz divisão com numeros maiores que 10.000.");
+                ArgumentException exceção = new ArgumentException("A calculadora não faz divisão com numeros maiores que 10.000.", nameof(numerador));
                 throw exceção;
             }
-            if (b == 3.14)
+            if (denominador == 3.14)
             {
-                ArgumentException exceção = new ArgumentException("A calculadora não faz divisão por Pi.");
+                ArgumentException exceção = new ArgumentException("A calculadora não faz divisão por Pi.", nameof(denominador));
                 throw exceção;
             }
-            A = a;
-            B = b;
+            A = numerador;
+            B = denominador;
         }
         public double Divide()
         {
