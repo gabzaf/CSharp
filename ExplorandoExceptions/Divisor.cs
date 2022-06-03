@@ -29,7 +29,7 @@ namespace ExplorandoExceptions
         {
             if(numerador < 0 || denominador < 0)
             {
-                throw new NumeradorOuDenominadorNegativoException("SOMENTE NÚMEROS POSITIVOS.");
+                throw new NumeradorOuDenominadorNegativoException(numerador, denominador);
             }
         }
         public double Divide()
