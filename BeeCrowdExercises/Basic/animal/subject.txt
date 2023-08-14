@@ -1,0 +1,39 @@
+In this problem, your job is to read three Portuguese words. 
+These words define an animal according to the table below, from left to right. After, print the chosen animal defined by these three words.
+
+
+			   Carnívoro -> Aguia
+		Ave	 ->
+			   Onivoro   -> Pomba
+Vertebrado ->		   
+			   Onivoro   -> Homem
+		Mamífero ->
+			   Herbivoro -> Vaca
+
+
+			  Hematofago -> Pulga
+		Inseto  ->
+			  Herbivoro  -> Lagarto
+Invertebrado ->		  
+			  Hematofago -> Sanguessuga
+		Anelideo ->
+			  Onivoro    -> Minhoca
+
+Input
+The input contains 3 words, one by line, that will be used to identify the animal, according to the above table, with all letters in lowercase.
+
+Output
+Print the animal name according to the given input.
+
+Input Samples 				Output Samples 
+vertebrado				homem
+mamifero
+onivoro
+
+vertebrado				aguia
+ave
+carnivoro
+
+invertebrado				minhoca
+anelideo
+onivoro
